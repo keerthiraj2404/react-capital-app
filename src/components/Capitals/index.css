@@ -1,0 +1,68 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #93c5fd;
+  background-size: 100vh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.capitals-container {
+  padding: 30px;
+  border-radius: 10px;
+  width: 50%;
+  height: 30%;
+  background-color: #f8fafc;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .capitals-container {
+    width: 50%;
+    height: 40%;
+  }
+}
+
+.heading {
+  color: #000000;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 36px;
+  }
+}
+
+.question-container {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Roboto';
+}
+
+.capital-select {
+  font-size: 16px;
+  color: #323f4b;
+  margin-top: 16px;
+  height: 24px;
+  width: 100px;
+}
+
+.option {
+  font-size: 14px;
+  color: #323f4b;
+}
+
+.question {
+  color: #1e293b;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.country {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+}
